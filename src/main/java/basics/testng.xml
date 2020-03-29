@@ -1,0 +1,12 @@
+<suite name = "empDemo">
+   <test name = "register">
+      <classes>
+         <class name = "basics.RunTest" />
+         <class name = "basics.PriorityTest" />
+      </classes>
+   </test>
+   
+   
+</suite>  
+
+

@@ -1,0 +1,10 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "empDemo" thread-count="2" parallel="methods">
+   <test name = "register">
+      <classes>
+         <class name = "parallelTest.ParrallelMethod" />
+      </classes>
+   </test>
+   
+</suite>  

@@ -1,0 +1,15 @@
+<suite name = "empDemo" >
+	<parameter name="browser" value="firefox"/> 
+  
+   <test name = "set1">
+      <classes>
+         <class name = "commonBrowser.TestLogin" />
+      </classes>
+   </test>
+   
+   <test name = "set2">
+      <classes>
+         <class name = "commonBrowser.TestLogin1" />
+      </classes>
+   </test>
+</suite>  

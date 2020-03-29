@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [empDemo]">
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="set1(failed)">
+    <classes>
+      <class name="commonBrowser.TestLogin">
+        <methods>
+          <include name="before"/>
+          <include name="t1"/>
+        </methods>
+      </class> <!-- commonBrowser.TestLogin -->
+    </classes>
+  </test> <!-- set1(failed) -->
+  <test thread-count="5" name="set2(failed)">
+    <classes>
+      <class name="commonBrowser.TestLogin1$TestLogin">
+        <methods>
+          <include name="t1"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- commonBrowser.TestLogin1$TestLogin -->
+    </classes>
+  </test> <!-- set2(failed) -->
+</suite> <!-- Failed suite [empDemo] -->

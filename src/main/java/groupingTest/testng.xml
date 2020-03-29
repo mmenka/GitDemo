@@ -1,0 +1,14 @@
+<suite name="Suite">
+    <test name="TestGrouping">
+        <groups>
+	    	 <run>
+ 				<exclude name="login" />
+ 				
+	     	</run>
+		 </groups>
+ 
+		 <classes>
+		     <class name="groupingTest.GroupingTestClasses" />
+		 </classes>
+	 </test>
+</suite>

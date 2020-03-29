@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Program]">
+  <test thread-count="5" name="Run All(failed)">
+    <classes>
+      <class name="login.LoginPageTest">
+        <methods>
+          <include name="login1"/>
+          <include name="loadHPage"/>
+        </methods>
+      </class> <!-- login.LoginPageTest -->
+    </classes>
+  </test> <!-- Run All(failed) -->
+</suite> <!-- Failed suite [All Program] -->

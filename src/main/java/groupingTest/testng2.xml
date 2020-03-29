@@ -1,0 +1,21 @@
+<!--Group of group -->
+<suite name="empDemo">
+	<test name="testGrouping">
+		<groups>
+			<define name="All">
+				<include name="login" />
+				<include name="register" />
+			</define>
+			<run>
+				<include name="All" />
+  		  <include name="other" />
+			</run>
+		</groups>
+
+		<classes>
+			<class name="groupingTest.GroupingTestClasses" />
+		</classes>
+
+	</test>
+
+</suite>
